@@ -1,0 +1,83 @@
+body {
+  margin: 0px;
+  height: 100vh;
+}
+.container {
+  background-color: #1a212a;
+  position: relative;
+  top: 150px;
+  left: 35%;
+  height: 60vh;
+  width: 405px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: px;
+  padding: 5px 5px 5px 8px;
+  border-radius: 10px;
+}
+.resultarea {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 5px;
+  font-size: x-large;
+  color: white;
+  height: 20%;
+  
+}
+.controlarea {
+  height: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 3px;
+}
+.button {
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.number,
+.function {
+  font-size: larger;
+  color: white;
+  width: 98px;
+  height: 60px;
+}
+.function {
+  background-color: #2d333c;
+}
+.number {
+  background-color: #363c44;
+}
+.modulo,
+.clear,
+.erase {
+  background-color: #2d333c;
+  color: white;
+  height: 60px;
+  width: 98px;
+}
+#equalto {
+  background-color: #30e5ff;
+  color: black;
+}
+.number:hover {
+  background-color: #2d333c;
+}
+.function:hover {
+  background-color: #363c44;
+}
+.modulo:hover {
+  background-color: #363c44;
+}
+.clear:hover {
+  background-color: #363c44;
+}
+.erase:hover {
+  background-color: #363c44;
+}
+#equalto:hover {
+  background-color: #29acc1;
+}
